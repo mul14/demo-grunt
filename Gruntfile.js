@@ -60,8 +60,8 @@ module.exports = function(grunt) {
         default: {
             options: { width: 350 },
             files: [
-                { "tmp/img/niagra.jpg": "assets/img/niagara.jpg" },
-                { "tmp/img/niagra-falls.jpg": "assets/img/niagara-falls.jpg" }
+                { "tmp/img/niagara.jpg": "assets/img/niagara.jpg" },
+                { "tmp/img/niagara-falls.jpg": "assets/img/niagara-falls.jpg" }
             ]
         }
       },
@@ -76,7 +76,7 @@ module.exports = function(grunt) {
       clean: ["tmp", "public"]
     })
 
-    // Load plugin
+    // Load plugins
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-favicons');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
