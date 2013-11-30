@@ -1,0 +1,15 @@
+tmp/
+deploy/
+public/
+node_modules/
+
+# vim junk
+*~
+*.swp
+
+# Windows junk
+Thumbs.db
+
+# OS X junk
+.DS_Store
+
